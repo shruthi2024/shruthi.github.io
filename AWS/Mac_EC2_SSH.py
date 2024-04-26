@@ -16,7 +16,7 @@ ec2_username = "ec2-user"
 
 
 
-# create SSH client
+# create ssh client
 
 ssh_client = paramiko.SSHClient()
 
@@ -42,7 +42,7 @@ except:
     print("command returned no op")
 
 
-#close the SSH connection
+#close the ssh connection
 ssh_client.close()
 
 
