@@ -1,0 +1,121 @@
+**********SSH Log : 2024-04-26 13:37:19.842315************
+command
+pwd:
+/home/ec2-user
+command
+ls -lrt:
+total 0
+command
+df -kh:
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           475M     0  475M   0% /dev/shm
+tmpfs           190M  2.8M  188M   2% /run
+/dev/xvda1      8.0G  1.6G  6.5G  20% /
+tmpfs           475M     0  475M   0% /tmp
+/dev/xvda128     10M  1.3M  8.7M  13% /boot/efi
+tmpfs            95M     0   95M   0% /run/user/1000
+error
+upime:
+bash: line 1: upime: command not found
+command
+ps -ef:
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Apr24 ?        00:00:13 /usr/lib/systemd/systemd --switched-root --system --deserialize=32
+root           2       0  0 Apr24 ?        00:00:00 [kthreadd]
+root           3       2  0 Apr24 ?        00:00:00 [rcu_gp]
+root           4       2  0 Apr24 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 Apr24 ?        00:00:00 [slub_flushwq]
+root           6       2  0 Apr24 ?        00:00:00 [netns]
+root           8       2  0 Apr24 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 Apr24 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 Apr24 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 Apr24 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 Apr24 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 Apr24 ?        00:00:02 [ksoftirqd/0]
+root          15       2  0 Apr24 ?        00:00:00 [rcu_preempt]
+root          16       2  0 Apr24 ?        00:00:00 [migration/0]
+root          18       2  0 Apr24 ?        00:00:00 [cpuhp/0]
+root          20       2  0 Apr24 ?        00:00:00 [kdevtmpfs]
+root          21       2  0 Apr24 ?        00:00:00 [inet_frag_wq]
+root          22       2  0 Apr24 ?        00:00:00 [kauditd]
+root          23       2  0 Apr24 ?        00:00:00 [khungtaskd]
+root          24       2  0 Apr24 ?        00:00:00 [oom_reaper]
+root          27       2  0 Apr24 ?        00:00:00 [writeback]
+root          28       2  0 Apr24 ?        00:00:05 [kcompactd0]
+root          29       2  0 Apr24 ?        00:00:00 [khugepaged]
+root          30       2  0 Apr24 ?        00:00:00 [kintegrityd]
+root          31       2  0 Apr24 ?        00:00:00 [kblockd]
+root          32       2  0 Apr24 ?        00:00:00 [blkcg_punt_bio]
+root          33       2  0 Apr24 ?        00:00:00 [xen-balloon]
+root          34       2  0 Apr24 ?        00:00:00 [tpm_dev_wq]
+root          35       2  0 Apr24 ?        00:00:00 [md]
+root          36       2  0 Apr24 ?        00:00:00 [edac-poller]
+root          37       2  0 Apr24 ?        00:00:00 [watchdogd]
+root          38       2  0 Apr24 ?        00:00:01 [kworker/0:1H-xfs-log/xvda1]
+root          45       2  0 Apr24 ?        00:00:00 [kswapd0]
+root          76       2  0 Apr24 ?        00:00:00 [xfsalloc]
+root          77       2  0 Apr24 ?        00:00:00 [xfs_mru_cache]
+root          80       2  0 Apr24 ?        00:00:00 [kthrotld]
+root          95       2  0 Apr24 ?        00:00:00 [xenbus]
+root          96       2  0 Apr24 ?        00:00:00 [xenwatch]
+root         134       2  0 Apr24 ?        00:00:00 [nvme-wq]
+root         136       2  0 Apr24 ?        00:00:00 [nvme-reset-wq]
+root         138       2  0 Apr24 ?        00:00:00 [nvme-delete-wq]
+root         161       2  0 Apr24 ?        00:00:00 [mld]
+root         162       2  0 Apr24 ?        00:00:00 [ipv6_addrconf]
+root         172       2  0 Apr24 ?        00:00:00 [kstrp]
+root         184       2  0 Apr24 ?        00:00:00 [zswap-shrink]
+root         185       2  0 Apr24 ?        00:00:00 [kworker/u31:0]
+root         978       2  0 Apr24 ?        00:00:00 [xfs-buf/xvda1]
+root         979       2  0 Apr24 ?        00:00:00 [xfs-conv/xvda1]
+root         980       2  0 Apr24 ?        00:00:00 [xfs-reclaim/xvd]
+root         981       2  0 Apr24 ?        00:00:00 [xfs-blockgc/xvd]
+root         982       2  0 Apr24 ?        00:00:00 [xfs-inodegc/xvd]
+root         983       2  0 Apr24 ?        00:00:00 [xfs-log/xvda1]
+root         984       2  0 Apr24 ?        00:00:00 [xfs-cil/xvda1]
+root         985       2  0 Apr24 ?        00:00:50 [xfsaild/xvda1]
+root        1039       1  0 Apr24 ?        00:00:09 /usr/lib/systemd/systemd-journald
+root        1233       1  0 Apr24 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+systemd+    1715       1  0 Apr24 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root        1729       1  0 Apr24 ?        00:00:00 /sbin/auditd
+root        1852       2  0 Apr24 ?        00:00:00 [cryptd]
+root        1856       2  0 Apr24 ?        00:00:00 [ata_sff]
+root        1870       2  0 Apr24 ?        00:00:00 [scsi_eh_0]
+root        1873       2  0 Apr24 ?        00:00:00 [scsi_tmf_0]
+root        1878       2  0 Apr24 ?        00:00:00 [scsi_eh_1]
+root        1879       2  0 Apr24 ?        00:00:00 [scsi_tmf_1]
+root        1915       2  0 Apr24 ?        00:00:00 [rpciod]
+root        1917       2  0 Apr24 ?        00:00:00 [xprtiod]
+root        1951       1  0 Apr24 ?        00:00:00 /usr/bin/systemd-inhibit --what=handle-suspend-key:handle-hibernate-key --who=noah --why=acpid instead --mode=block /usr/sbin/acpid -f
+libstor+    1957       1  0 Apr24 ?        00:00:00 /usr/bin/lsmd -d
+root        1959       1  0 Apr24 ?        00:00:12 /usr/sbin/rngd -f -x pkcs11 -x nist
+root        1961       1  0 Apr24 ?        00:00:00 /usr/lib/systemd/systemd-homed
+root        1962       1  0 Apr24 ?        00:00:01 /usr/lib/systemd/systemd-logind
+dbus        1963       1  0 Apr24 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+systemd+    1964       1  0 Apr24 ?        00:00:00 /usr/lib/systemd/systemd-networkd
+dbus        1979    1963  0 Apr24 ?        00:00:01 dbus-broker --log 4 --controller 9 --machine-id cdd9153717a74d3d90d3b3e19741e1ea --max-bytes 536870912 --max-fds 4096 --max-matches 16384 --audit
+root        1985       1  0 Apr24 ?        00:00:00 /usr/sbin/gssproxy -D
+root        2006    1951  0 Apr24 ?        00:00:00 /usr/sbin/acpid -f
+root        2155       1  0 Apr24 ?        00:00:05 /usr/bin/amazon-ssm-agent
+root        2159       1  0 Apr24 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        2166       1  0 Apr24 ?        00:00:00 /usr/sbin/atd -f
+root        2169       1  0 Apr24 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root        2170       1  0 Apr24 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+chrony      2189       1  0 Apr24 ?        00:00:04 /usr/sbin/chronyd -F 2
+root        2912       1  0 Apr24 ?        00:00:00 /usr/lib/systemd/systemd-userdbd
+root       87468       2  0 07:17 ?        00:00:00 [kworker/u30:1-xfs-cil/xvda1]
+root       88330       2  0 07:46 ?        00:00:00 [kworker/u30:0-flush-202:0]
+root       88742       2  0 07:56 ?        00:00:00 [kworker/0:1-events]
+root       89047       2  0 08:00 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+root       89126    2912  0 08:03 ?        00:00:00 systemd-userwork: waiting...
+root       89127    2912  0 08:03 ?        00:00:00 systemd-userwork: waiting...
+root       89128    2912  0 08:03 ?        00:00:00 systemd-userwork: waiting...
+root       89223       2  0 08:06 ?        00:00:00 [kworker/0:0-events]
+root       89224    2159  0 08:07 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user   89228       1  1 08:07 ?        00:00:00 /usr/lib/systemd/systemd --user
+root       89230       2  0 08:07 ?        00:00:00 [kworker/u30:2-events_unbound]
+root       89231       2  0 08:07 ?        00:00:00 [kworker/u30:3-events_unbound]
+ec2-user   89232   89228  0 08:07 ?        00:00:00 (sd-pam)
+ec2-user   89239   89224  0 08:07 ?        00:00:00 sshd: ec2-user@notty
+ec2-user   89304   89239  0 08:07 ?        00:00:00 ps -ef
