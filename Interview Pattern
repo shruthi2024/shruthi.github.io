@@ -1,3 +1,7 @@
+How Yashwanth Grabbed Super High Paying Automation Job in 2 years (https://www.youtube.com/watch?v=6UGR8gdIMoU)
+
+
+
 *****************QA Automation Engineer needs to tackle following challenge*********************
 
 Programming Lang - Javascript, Python
@@ -57,7 +61,122 @@ reverse linked list
 right rotate 
 spiral print of matrix
 
-*****************2nd round interview - 
+*****************2nd round interview - Backend API
+
+Basics of API - Maintenance
+
+Postman operations- how to pass queries ?
+
+what to validate in the response u get when u send API request
+
+Status code
+response time
+
+as a tester how to identify whether its a backend or front end issue - when button click doesnot work
+
+Jenkins pipeline - dev pipeline; Tester pipeline - purpose of each ; how to run testcases in different env
+
+version control -git - GIT rebase and git merge difference
+
+Manual test questions
+SDLC , bug life cycle
+
+Testing techniques,
+Test plans , test cases- how many TCs
+
+******************************Interview Process*****************************
+
+Timeline - 21 day challenge 
+Road map-
+
+Programming Language
+
+        Python basics - Syntax (no IDE no intellisence - just node pad)
+        Python advanced - OOPS , highlevel DSA
+
+Manual Testing Questions
+
+        SDLC
+
+SeleniumFramework
+        BDD TDD difference
+        selenium webdriver architecture
+        exceptions in selenium and how to resolve
+        past experience-most challenging issue resolved
+        How many Tcs u can automate per day- 10 
+
+
+##################Prepration + Interview ( with Minimum prpration)
+
+Get interview Questions - write it down , work on it
+ 
+Coding Practice - every day - 5 pblm/day For Interview on June 1st
+Python topics- Tuples, Dictionaries -DAta structures 
+
+Interview count -15 from June 1st - September -30th for 15 LPA
+
+Types of questions - Based on experience level - 3years
+
+1. Exceptions types
+2. Exception handling
+3. Button click - selenium .click doesnt work - actions, javascript
+
+Interview Experiences- Reviews on 
+Geeks for Geeks 
+Glassdoors
+Ambition box
+
+*************HR / Manager Round - strategy *******************
+
+2 categories -
+1. namesake
+2. Puzzle - Rubics box, optimize - parallel testing, design patters- reduce time ; API instead of UI ; 
+Team member lagging- help - Don't be too genuine 
+REASON for changing - 
+
+My interest lies in ?????????????
+
+
+########################3 years experience - Mid/ service based organization*********************
+
+1. Coding - common questions
+   Python - 
+        OOPS used in Selenium
+        Arrays /stings
+2. Application understanding- SymWorld Application Expanation / Automation studio , Service desk , Qzen - Talking about PROJECT
+
+3. Get hold on Interviews- By giving interviews - which gives direction for prepration
+
+4. Resume - 
+    1. Single page 
+    2. Current Project explanation highlighted(chatGPT- shortlisted resume template and make my resume )
+    3. all other Projects - 1 liner
+    4. linkedin , Github , Leetcode Profile
+    5. 1- Experiences; 2-Technology stack(minimum confidence); 3- Taylor Resume to match JD(never Generic resumes to crack ATS ) ; 4- Build my own framework from scratch ; 5 - Project
+    6. How do u stand out
+
+5. Where to find Job
+
+  1. Naukri - 100% profile ; add changes - every day test@6 AM ; add skill 
+  2. Linked In -
+    Jobs - keywords - skills, location - 
+    Referral- Find common people(QA Lead,Manager level) - connectoin request , Template for referral request , share cover letter ,resume and jobid - 3/10 would give referral 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
