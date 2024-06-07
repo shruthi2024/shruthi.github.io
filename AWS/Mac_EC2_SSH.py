@@ -2,7 +2,7 @@ import paramiko
 
 #public Ip address or DNS hostname of EC2 instance
 
-ec2_ip = "3.91.81.26"
+ec2_ip = "3.87.112.18"
 
 
 #ssh key .pem file for authentication
@@ -27,7 +27,7 @@ ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 # connect to EC2 instance
 
-ssh_client.connect(ec2_ip,username=ec2_username,key_filename=key_file)
+#ssh_client.connect(ec2_ip,username=ec2_username,key_filename=key_file)
 
 
 # execute commands on EC2 instance
@@ -35,6 +35,8 @@ ssh_client.connect(ec2_ip,username=ec2_username,key_filename=key_file)
 cmd = "ls"
 
 try:
+    ssh_client.connect(ec2_ip,username=ec2_username,key_filename=key_file)
+
     stdin, stdout, stderr = ssh_client.exec_command(cmd)
     print(stdout.read().decode())
 

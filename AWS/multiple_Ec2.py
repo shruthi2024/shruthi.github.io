@@ -11,10 +11,12 @@ def ssh_execute(ec_ip, username, key_filename, commands):
 
     try:
 
-        print (ec_ip)
+
 
         #connect to ec2 instance via ssh
         ssh_client.connect(ec_ip,username=username,key_filename=key_filename)
+
+        print (ec_ip)
         #execute the commands
 
         for command in commands:
